@@ -1,0 +1,232 @@
+body {
+  color: #0B3755; /*'#' indicates that a hexadecimal value folows */
+  background-color: #76A59F;
+  font-size: 18px;
+  font-family: 'Mono' , monospace;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+a:link {
+  color: #d95626;
+}
+a:hover {
+  color: #52A257;
+}
+a:visited {
+  color: #e48967;
+}
+a:active {
+  color: #c00c66;
+}
+button:link {
+  background-color: #dd673c;
+}
+button:active {
+  background-color: #dd673c;
+}
+button:focus {
+  background-color: #dd673c;
+}
+button:visited {
+  background-color: #dd673c;
+}
+button:default {
+  background-color: #dd673c;
+}
+button:target {
+  background-color: #dd673c;
+}
+button:disabled {
+  background-color: #dd673c;
+}
+button::after {
+  background-color: #dd673c;
+}
+
+img.header {
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+
+  width: 100%;
+  height: 520px;
+}
+
+img.answer_img {
+  float: left;
+  height: 500px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+/** body.body_boxes {
+  background-image: url(1cm-Dots_Green.png);
+} **/
+
+.question_header {
+  color: #34756D;
+  background-color:  #dd673c;
+  cursor: crosshair;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 25px;
+  font-family: inherit;
+}
+
+.active, .question_header:hover {
+  background-color: #d95626;
+}
+
+.question_contents {
+  color: #111C1C;
+  padding: 0 10px;
+  display: none;
+  overflow: hidden;
+  background-color: #a2c3bf;
+}
+
+p.question_answer {
+  color: #111C1C;
+}
+
+.joach {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+
+p.button {
+  color: #FFFFFF;
+  background-color:#000000;
+
+  border: 30px solid #000000;
+  border-radius: 30px;
+
+text-align: center;
+}
+
+div.home {
+  background-color: #0B3755;
+
+  border: 30px solid #0B3755;
+  border-radius: 30px;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+
+}
+
+/** Exploration styles follow **/
+
+em.exploration {
+  font-weight: bold;
+  font-style: normal;
+  color: #FFFFFF;
+  background-color: #000000;
+  padding: 10px;
+  border: 10px solid #FFFFFF;
+  display: block;
+  width: 100px;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  display: block;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+img#RobotBox {
+  position: relative;
+}
+
+img#sndBx {
+  position: absolute;
+}
+.ref-container {
+  display: flex;
+  justify-content: space-around;
+  height: 700px;
+}
+div#trays{
+  width: 99%
+}
+.ref {
+  width: 100%;
+  display: block;
+  justify-content: flex-start;
+}
+
+/** New Class Notes styles follow **/
+.flexboxelement-container {
+/**  height: 500px;**/
+  display: flex;
+  justify-content: space-around;
+}
+
+.flexboxelement {
+  color: #fff;
+  background-color: #5995DA;
+  display: flex;
+  width: 200px;
+  height: 300px;
+  border-radius: 12px;
+  margin-left: 10px;
+  justify-content: space-around;
+}
+
+div.dropdown {
+  display: flex;
+  justify-content: space-between;
+  background-color: #102030;
+  color: #C23280;
+}
+
+li.dropitem {
+  display: inline;
+  margin-left: 30px;
+  margin-right: 20px;
+  position: relative;
+}
+
+li.dropitem:hover {
+display: flex;
+flex-direction: column;
+}
+
+ul.droplist {
+  position: absolute;
+  left: -30px;
+  top: 30px;
+}
+#tucs {
+  font-family: 'Ancient Modern Tales';
+  src: url(https://hybrid.concordia.ca/L_ORALE/fonts/AncientModernTales-0df8.woff);
+}
