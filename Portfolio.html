@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="styleSheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+   </head>
+
+ <body>
+    <h1>Leo's Game Development Portfolio</h1>
+      <img src="images/CrabSim_Crab03.png" height="600" alt="This is supposed to be a cool art I made.">
+
+  <button type="button" class="question_header">Cyber Realm Battle Arena [click headers to expand]</button>
+    <div class="question_contents">
+      <p><strong>About this piece:</strong> Imagine you go back in time to the 1970s to change the history of the internet to your own liking. Based on the events described in the reading, how would you do it? How much funding would you need to achieve the changes you seek? Where do you get that funding from at the time, and how difficult is it to obtain? What does your answer to these questions say about the “great man theory” of history?</p>
+      </div>
+
+  <p class="question_answer">
+    <iframe src="https://itch.io/embed/860143" height="167" width="552" frameborder="0" ><a href="https://lm-vega.itch.io/cyber-realm-battle-arena">Cyber Realm Battle Arena by LM-Vega</a></iframe>
+  </p>
+
+<button type="button" class="question_header">Diatom: Legacy</button>
+<div class="question_contents">
+  <p><strong>About this piece:</strong> You live in the newly created country of North Turtle Island. All major online services such as social networking, online shopping, film & television streaming, game platforms, etc are currently provided through the internet by tech companies based in the country to your South, where they keep all their servers. These companies do not provide jobs to any of your fellow citizens, take all the profits they make out of your country, and are so powerful and well-funded that none of the local startups of North Turtle Island are able to compete.
+  </p>
+
+  </div>
+
+   <p class="question_answer">
+      <iframe src="https://itch.io/embed/858064" height="167" width="552" frameborder="0"><a href="https://lm-vega.itch.io/diatom-legacy">Diatom: Legacy by LM-Vega</a></iframe>
+    </p>
+
+<button type="button" class="question_header"> Meat Cute</button>
+<div class="question_contents">
+  <div class="joach">
+  <p><strong>About this piece:</strong>What do you think motivated early internet artists to make art on the internet? What defines success as an artist, in your view? By that metric, which ones of the artists mentioned in the reading do you think are successful? What are some of your favorite pieces of internet art that we might not know about?</p>
+  </div>
+  <div class="joach">
+    <ul>
+      <p>My Credits:</p>
+      <li>Art Creation/Direction.</li>
+        <li>Art Integration.</li>
+        <li>Game Design (shared credit).</li>
+  </ul>
+  </div>
+</div>
+    <p class="question_answer">
+      <iframe src="https://itch.io/embed/1044443" height="167" width="552" frameborder="0"><a href="https://pipeflowwizard.itch.io/meat-cute">Meat Cute by PipeFlowWizard, Maxelmao, LM-Vega, zi di&#039;s games, Bobo_Baqa</a></iframe>
+    </p>
+
+  <button type="button" class="question_header"> Cavern - Cinematic Design</button>
+      <div class="question_contents">
+
+        <p><strong>About this piece:</strong> It is the year 2030 and you’re hired at Concordia University to teach an interactive multimedia course named “Creative Computing & Network Culture”. You have all the technologies of digital media and network computing described in the readings at your disposal to design the most engaging educational experience ever created for your students, and serve as an example of good pedagogy to the entire world. Describe what you create.</p>
+        </div>
+      <p class="question_answer">
+        <h3>Maya:</h3>
+        <iframe width="920" height="480"
+        src="https://www.youtube.com/embed/UKFd1JwS_zo">
+        </iframe>
+        <h3>UE4:</h3>
+        <iframe width="920" height="480"
+        src="https://www.youtube.com/embed/_RpzBWAl6GY">
+        </iframe>
+    </p>
+
+<button type="button" class="question_header">Level Design Dev Log</button>
+    <div class="question_contents">
+      <p><strong>About this piece:</strong> You have been hired to an executive position in the software division of Omnicorp. In recent years, the creative computing lab at Conkers University has been the place where the most exciting new developments in software technology are happening. The students there are doing brilliant research and coming up with dozens of amazing new innovations every year. The culture of the student community is strongly influenced by the Free Software movement, and all its valuable output is licensed under the GNU General Public License.
+    </p>
+  </div>
+      <p class="question_answer">
+        <iframe width="920" height="480"
+        src="https://www.youtube.com/embed/8DP-JR5FMg0">
+        </iframe>
+    </p>
+</body>
+
+<script>
+var coll = document.getElementsByClassName("question_header");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "flex") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "flex";
+    }
+  });
+}
+</script>
+</html>
