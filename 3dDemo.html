@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="styleSheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+   </head>
+
+ <body>
+    <h1>Leo's 3D exploits</h1>
+      <img src="images/CrabSim_Crab03.png" height="600" alt="This is supposed to be a cool art I made.">
+
+      <button type="button" class="question_header">Hugs! - Short film  [click headers to expand]</button>
+          <div class="question_contents">
+            <p>
+              <strong>About this piece:</strong>Animated short film created during the 3rd year of the 3D Animation and CGI program at Dawson college.
+            </p>
+          </div>
+            <p class="question_answer">
+              <iframe width="920" height="480"
+              src="https://www.youtube.com/embed/m2F-MnBSbCA">
+              </iframe>
+            </p>
+
+        <button type="button" class="question_header"> Cavern & Cavern II - Cinematic Design</button>
+          <div class="question_contents">
+
+        <p><strong>About this piece:</strong> Cinematic explorations in part inspired by narrative themes in the Sci-Fi Horror novel <a href="https://en.wikipedia.org/wiki/The_Luminous_Dead">The Luminous Dead</a>. <strong>Cavern</strong> was rendered using Arnold in Maya and  composited and edited in After Effects. <strong>Cavern II</strong> was edited and rendered out of UE4 using the Sequencer, camera DOF effects achieved in-engine. Post-processed in After Effects, rock material made in Substance Designer.</p>
+        </div>
+      <p class="question_answer">
+        <h3>Cavern (Maya):</h3>
+        <iframe width="920" height="480"
+        src="https://www.youtube.com/embed/UKFd1JwS_zo">
+        </iframe>
+        <h3>Cavern II (UE4):</h3>
+        <iframe width="920" height="480"
+        src="https://www.youtube.com/embed/_RpzBWAl6GY">
+        </iframe>
+    </p>
+
+    <button type="button" class="question_header">Level Design Dev Log</button>
+    <div class="question_contents">
+      <p><strong>About this piece:</strong> Process documentation effort for a work in progress project centered around Architectural Game Design principles. The target intended design is to blend organic rock formations with an industrial environment. And to contrast open with enclosed spaces, presenting a contained traversal puzzle to the player.
+    </p>
+  </div>
+      <p class="question_answer">
+        <iframe width="920" height="480"
+        src="https://www.youtube.com/embed/8DP-JR5FMg0">
+        </iframe>
+    </p>
+
+    <button type="button" class="question_header">Modeling demo:</button>
+        <div class="question_contents">
+          <p><strong>About this piece:</strong>Compilation of miscellaneous projects realized thrughout the 3D Animation and CGI program at Dawson college.
+          </p>
+      </div>
+          <p class="question_answer">
+            <iframe width="920" height="480"
+            src="https://www.youtube.com/embed/lcQynxuFDlE">
+            </iframe>
+        </p>
+
+        <button type="button" class="question_header">Character sculpting:</button>
+                <div class="question_contents">
+                    <p><strong>About this piece:</strong>
+                      WIP character sculpt made in blender and drawn over with the greese pencil.
+                    </p>
+                </div>
+                    <p class="question_answer">
+                    <img src="images/axolFace_WIP.gif" height="600" alt="This is supposed to be a cool art I made.">
+                    </p>
+
+</body>
+
+<script>
+var coll = document.getElementsByClassName("question_header");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "flex") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "flex";
+    }
+  });
+}
+</script>
+</html>
