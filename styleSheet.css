@@ -81,6 +81,7 @@ img.answer_img {
   font-family: inherit;
 }
 
+
 .active, .question_header:hover {
   background-color: #d95626;
 }
@@ -225,6 +226,10 @@ ul.droplist {
   position: absolute;
   left: -30px;
   top: 30px;
+}
+
+strong.instructions {
+  font-size: 15px;
 }
 #tucs {
   font-family: 'Ancient Modern Tales';
