@@ -23,6 +23,11 @@ a:active {
     color: #42835c;
 }
 
+/* List styles */
+li {
+  margin: 4px;
+}
+
 /* Image Styles */
 img.header {
   display: block;
